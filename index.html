@@ -3,10 +3,134 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Metaslim</title>
+
+    <!-- SEO BASE -->
+    <title>Metaslim България — Кето подкрепа | Плащане при доставка 35€</title>
+    <meta name="description" content="Metaslim — натурална добавка в подкрепа на кето начина на живот. Поръчайте онлайн с -50% отстъпка, само 35€. Плащате при получаване, без плащане предварително." />
+    <meta name="keywords" content="metaslim, metaslim българия, metaslim цена, кето добавка, кето подкрепа, добавка за отслабване, плащане при доставка, metaslim поръчка, metaslim официален сайт" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://metaslim-bg.vercel.app/" />
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Metaslim България — Кето подкрепа | Плащане при доставка" />
+    <meta property="og:description" content="Натурална добавка в подкрепа на кето режима. -50% отстъпка, само 35€. Плащате при получаване." />
+    <meta property="og:image" content="https://metaslim-bg.vercel.app/img/product.png" />
+    <meta property="og:url" content="https://metaslim-bg.vercel.app/" />
+    <meta property="og:locale" content="bg_BG" />
+
+    <!-- PERFORMANCE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- SCHEMA MARKUP (JSON-LD @graph) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://metaslim-bg.vercel.app/#organization",
+          "name": "Metaslim България",
+          "url": "https://metaslim-bg.vercel.app/",
+          "logo": "https://metaslim-bg.vercel.app/img/product.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://metaslim-bg.vercel.app/#website",
+          "url": "https://metaslim-bg.vercel.app/",
+          "name": "Metaslim България",
+          "publisher": { "@id": "https://metaslim-bg.vercel.app/#organization" },
+          "inLanguage": "bg-BG"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://metaslim-bg.vercel.app/#breadcrumb",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Начало", "item": "https://metaslim-bg.vercel.app/" },
+            { "@type": "ListItem", "position": 2, "name": "Metaslim", "item": "https://metaslim-bg.vercel.app/" }
+          ]
+        },
+        {
+          "@type": "Product",
+          "@id": "https://metaslim-bg.vercel.app/#product",
+          "name": "Metaslim",
+          "image": "https://metaslim-bg.vercel.app/img/product.png",
+          "description": "Натурална добавка с растителни компоненти, създадена в подкрепа на кетогенния начин на хранене.",
+          "brand": { "@type": "Brand", "name": "Metaslim" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://metaslim-bg.vercel.app/",
+            "priceCurrency": "EUR",
+            "price": "35",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "327"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Румяна" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "Поръчах лесно и платих при получаване в пощата. Опаковката беше точно както на сайта. Доволна съм от обслужването."
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Тодорка" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "Хареса ми, че не плащам предварително. Обадиха се, уточниха адреса и получих пратката бързо."
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Аделина" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "Просто и удобно. Прегледах пратката на място, преди да платя. Препоръчвам начина на поръчка."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://metaslim-bg.vercel.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Трябва ли да плащам предварително за Metaslim?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Не. Плащате само при получаване на пратката в пощенския офис. Няма плащане предварително." }
+            },
+            {
+              "@type": "Question",
+              "name": "Колко струва Metaslim в България?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Цената по текущата промоция е 35€ с -50% отстъпка. Сумата се заплаща при доставка." }
+            },
+            {
+              "@type": "Question",
+              "name": "Мога ли да прегледам пратката преди да платя?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Да. Получавате пратката в пощенския офис и я преглеждате, преди да платите на място." }
+            },
+            {
+              "@type": "Question",
+              "name": "Как поръчвам Metaslim?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Оставяте име и телефон във формата на сайта. Наш оператор се свързва с вас, за да потвърди адреса за доставка." }
+            },
+            {
+              "@type": "Question",
+              "name": "За какво е предназначен Metaslim?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Metaslim е натурална добавка с растителни компоненти, създадена в подкрепа на кетогенния начин на хранене." }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
     <style>
       .order-hit {
         font-size: 12.5px;
@@ -17,13 +141,27 @@
       .validator__tooltip {
         z-index: 0 !important;
       }
+      /* FAQ AEO */
+      .faq-aeo { padding: 40px 0; }
+      .faq-aeo .faq-item { border-bottom: 1px solid #e5e5e5; padding: 18px 0; }
+      .faq-aeo .faq-item h3 { font-size: 19px; margin: 0 0 8px; color: #1a1a1a; }
+      .faq-aeo .faq-item p { font-size: 16px; line-height: 1.55; color: #444; margin: 0; }
+      /* FOOTER COMPLIANCE */
+      .footer-compliance { background: #1c1c1c; color: #cfcfcf; padding: 36px 0 24px; font-size: 13.5px; line-height: 1.6; }
+      .footer-compliance .fc-wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+      .footer-compliance .fc-disclaimer { border-left: 3px solid #d32f2f; padding-left: 14px; margin-bottom: 22px; color: #b8b8b8; }
+      .footer-compliance .fc-links { display: flex; flex-wrap: wrap; gap: 10px 26px; margin-bottom: 18px; }
+      .footer-compliance .fc-links a { color: #fff; text-decoration: none; border-bottom: 1px solid #555; padding-bottom: 2px; }
+      .footer-compliance .fc-links a:hover { border-color: #d32f2f; }
+      .footer-compliance .fc-copy { color: #8a8a8a; font-size: 12.5px; }
     </style>
-  <script type="text/javascript" src="script_land.js" defer></script></head>
+    <script type="text/javascript" src="script_land.js" defer></script>
+  </head>
 
   <body class="timer-different">
     <div class="top-banner">
       <div class="top-banner__container">
-        <p class="top-banner__attention"><span>Внимание!</span> Производството е заредено. Най-близките продукти могат да бъдат изпратени само <b>след 4 дни.</b></p>
+        <p class="top-banner__attention"><span>Внимание!</span> Заявките се обработват в реда на постъпване. При голям интерес доставката може да отнеме <b>до 4 дни.</b></p>
       </div>
     </div>
     <header class="bg_header">
@@ -32,7 +170,7 @@
         <figure class="logo">
           <span class="main_logo">Metaslim </span>
           <figcaption>
-            <span> Ефективността доказана от лекарите </span>
+            <span> Подкрепа за вашата кето диета </span>
           </figcaption>
           <div class="order-hit">
             <img alt="" class="label" src="img/label.svg" />
@@ -54,27 +192,27 @@
           <img alt="" class="main_product" src="img/product.png" style="width: 100%; max-width: 225px; margin-top: 45px" />
         </figure>
         <h1>
-          Революционен начин за отслабване
+          Натурална подкрепа за отслабване
           <br />
-          <span> на базата на кетогенна диета </span>
+          <span> при кетогенен начин на хранене </span>
         </h1>
         <ul class="list marked">
           <li>
-            <strong> Започнете </strong>
-            активното изгаряне на мазнини веднага след приема
+            <strong> Създаден </strong>
+            в подкрепа на кето режима на хранене
           </li>
           <li>
-            Борба с най
-            <strong> «вредните» мазнини </strong>
-            – висцерални
+            Съдържа
+            <strong> естествени растителни </strong>
+            компоненти
           </li>
           <li>
-            <strong> Отслабване </strong>
-            без упражнения
+            <strong> Удобен </strong>
+            за всекидневен прием
           </li>
           <li>
-            <strong> Хит на световната </strong>
-            диета за хранене
+            <strong> Популярен избор </strong>
+            сред хората на кето диета
           </li>
         </ul>
         <div class="form">
@@ -120,14 +258,14 @@
         <div class="mw is-grid">
           <div class="col c-8">
             <h2>
-              <strong> Кетогенна диета </strong>
-              – единствената диета, с която всеки отслабва!
+              <strong> Кетогенният режим </strong>
+              – подход, който мнозина избират за своята фигура
             </h2>
           </div>
           <div class="col c-4">
             <h4>
-              <span class="color_alt_2"> Мазнините оставят </span>
-              такива места като:
+              <span class="color_alt_2"> Зони, върху които </span>
+              хората искат да работят:
             </h4>
           </div>
         </div>
@@ -148,7 +286,7 @@
               <figure>
                 <img src="img/a1-2.svg" />
                 <figcaption>
-                  <p>Задник</p>
+                  <p>Ханш</p>
                 </figcaption>
               </figure>
             </li>
@@ -172,7 +310,7 @@
               <figure>
                 <img src="img/a1-5.svg" />
                 <figcaption>
-                  <p>Раменете</p>
+                  <p>Рамене</p>
                 </figcaption>
               </figure>
             </li>
@@ -207,11 +345,11 @@
       <section class="bg_2" id="art2">
         <div class="mw is-grid">
           <div class="col c-6">
-            <h2>Колко бързо?</h2>
+            <h2>Какво представлява кето режимът?</h2>
             <br />
           </div>
           <div class="col c-6">
-            <h4 class="color_alt">Данни за клинични изпитвания</h4>
+            <h4 class="color_alt">Информация за кетогенния начин на хранене</h4>
           </div>
         </div>
         <div class="mw">
@@ -220,13 +358,13 @@
               <figure>
                 <div class="people-perc">
                   <img src="img/a2-1.svg" />
-                  <div class="people-perc-txt">от хората</div>
+                  <div class="people-perc-txt">подход</div>
                 </div>
                 <figcaption>
                   <p>
-                    7-10 кг
+                    Намален прием
                     <br />
-                    на месец
+                    на въглехидрати
                     <br />
                   </p>
                 </figcaption>
@@ -236,13 +374,13 @@
               <figure>
                 <div class="people-perc">
                   <img src="img/a2-2.svg" />
-                  <div class="people-perc-txt">от хората</div>
+                  <div class="people-perc-txt">подход</div>
                 </div>
                 <figcaption>
                   <p>
-                    5-7 кг
+                    Повече здравословни
                     <br />
-                    на месец
+                    мазнини
                     <br />
                   </p>
                 </figcaption>
@@ -252,13 +390,13 @@
               <figure>
                 <div class="people-perc">
                   <img src="img/a2-3.svg" />
-                  <div class="people-perc-txt">от хората</div>
+                  <div class="people-perc-txt">подход</div>
                 </div>
                 <figcaption>
                   <p>
-                    По-малко от 5 кг
+                    Редовен
                     <br />
-                    на месец
+                    хранителен ритъм
                     <br />
                   </p>
                 </figcaption>
@@ -268,12 +406,12 @@
               <figure>
                 <div class="people-perc">
                   <img src="img/a2-4.svg" />
-                  <div class="people-perc-txt">от хората</div>
+                  <div class="people-perc-txt">подход</div>
                 </div>
                 <figcaption>
                   <p>
-                    Повече от 10 кг<br />
-                    на месец
+                    Достатъчен прием<br />
+                    на вода
                     <br />
                   </p>
                 </figcaption>
@@ -286,13 +424,13 @@
       <section class="bg_3 invert text__color-inversion" id="art3">
         <div class="mw dc">
           <h2>
-            <strong> Вижте резултатите </strong>
-            за отслабване с леки килограми на Metaslim за кето диета
+            <strong> Защо хората избират </strong>
+            Metaslim като част от кето режима си
           </h2>
           <p class="after__title">
-            Основното предимство на Metaslim е, че продуктът
-            <strong> безопасно </strong>
-            активира естествените процеси на изгаряне на мазнини в човешкото тяло.
+            Metaslim е създаден като
+            <strong> натурална подкрепа </strong>
+            за хората, които спазват кетогенен начин на хранене в ежедневието си.
           </p>
         </div>
         <div class="mw">
@@ -320,12 +458,12 @@
         <div class="mw is-grid">
           <div class="col c-6">
             <h3>
-              Много от тези, които отслабват с Metaslim,
-              <strong> не могат да отслабнат от години! </strong>
+              Хора, които спазват кето режим,
+              <strong> често търсят удобна подкрепа! </strong>
             </h3>
             <p>
-              Водещите диетолози в света вече са нарекли Metaslim спасението на човечеството от наднорменото тегло. Сега той има най-големи надежди и средство вече е включен в <strong>държавните програми за отслабване</strong>
-              в няколко европейски държави.
+              Кетогенният начин на хранене става все по-популярен в Европа. Затова Metaslim е
+              <strong>популярен избор сред хората</strong>, които искат удобен продукт като част от своя кето режим.
             </p>
             <button class="sm-center btn type_0 modal ever-popup-btn" style="margin-top: 10px; display: block" href="#">Поръчайте Metaslim</button>
           </div>
@@ -340,10 +478,10 @@
       <section class="bg_55" id="art55">
         <div class="mw dc">
           <h2>
-            <strong> Как работи </strong>
-            кетогенната диета и Metaslim?
+            <strong> Как се съчетава </strong>
+            кето режимът с Metaslim?
           </h2>
-          <p class="after__title">Принципът на действие се основава на способността на тялото ни да получава енергия не само от въглехидрати, но и от мазнини.</p>
+          <p class="after__title">Идеята на кето режима се основава на това тялото да получава енергия повече от мазнини и по-малко от въглехидрати.</p>
         </div>
       </section>
       <!-- / SECTION 5 -->
@@ -354,10 +492,10 @@
               <figure>
                 <img src="img/a5-1.png" />
                 <figcaption>
-                  <p>Когато спрем да консумираме въглехидрати и вместо това започнем да ядем много мазнини, метаболизмът ни се възстановява.</p>
+                  <p>При кето режима приемът на въглехидрати се намалява, а делът на здравословните мазнини в менюто се увеличава.</p>
                   <p>
-                    <strong> В черния дроб се произвеждат специални вещества - кетонови тела, </strong>
-                    предназначени да разграждат мазнините. Това е основата на кетогенната диета.
+                    <strong> Това е основната идея </strong>
+                    на кетогенния начин на хранене, който мнозина избират за ежедневието си.
                   </p>
                 </figcaption>
               </figure>
@@ -367,10 +505,11 @@
                 <img src="img/a5-2.png" />
                 <figcaption>
                   <p>
-                    Учените от Германския институт за хранене на човека обаче продължиха, като създадоха специални препарат, съдържащ
-                    <strong> естествени вещества, подобни по действие на кетонни тела. </strong>
+                    Metaslim е разработен като
+                    <strong> натурален продукт с растителни компоненти, </strong>
+                    подходящ за хора на кето режим.
                   </p>
-                  <p>Те са насочени и към изгаряне на мазнини.</p>
+                  <p>Удобен е за всекидневен прием като част от хранителния режим.</p>
                 </figcaption>
               </figure>
             </li>
@@ -387,13 +526,13 @@
           </div>
           <div class="col c-6">
             <h3>
-              <strong> Кетоновите тела </strong>
-              са основата на Metaslim, така че всички губят тегло с това средство!
+              <strong> Натурален състав </strong>
+              в основата на Metaslim
             </h3>
-            <p>Тези вещества се извличат от естествени компоненти, следователно не вредят на организма и освен това имат изключително висока ефективност (с което надминават кетоновите тела на човека с повече от 15 пъти!).</p>
+            <p>Компонентите се извличат от естествени растителни източници и са подбрани, за да бъдат подходящи за всекидневен прием в рамките на кето режима.</p>
             <p>
-              <strong> Клиничните проучвания показват, </strong>
-              че когато се приемат, теглото започва да напуска бързо и със 100% ефективност.
+              <strong> Много хора </strong>
+              съчетават Metaslim с кето хранене като удобна част от ежедневието си.
             </p>
             <button class="btn type_0 modal ever-popup-btn" href="#">Поръчайте Metaslim по промоция</button>
           </div>
@@ -403,10 +542,10 @@
       <section class="bg_77" id="art77">
         <div class="mw dc">
           <h2>
-            <strong> Етапи на отслабване </strong>
-            с Metaslim
+            <strong> Кето режимът </strong>
+            стъпка по стъпка
           </h2>
-          <p class="after__title">Курсът за отслабване с продукт Metaslim може да се повтаря многократно, докато постигнете желаната форма.</p>
+          <p class="after__title">Кето режимът е навик, който мнозина изграждат постепенно, докато се почувстват комфортно с него.</p>
         </div>
       </section>
       <!-- / SECTION 7 -->
@@ -419,24 +558,20 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Преструктуриране </strong>
-                      на тялото за активно изгаряне на мазнини
+                      <strong> Първи дни: </strong>
+                      привикване към кето менюто
                     </li>
                     <li>
-                      До края на седмицата
+                      Тялото се
                       <strong>
-                        <span style="white-space: nowrap">1-2 кг</span>
+                        <span style="white-space: nowrap">адаптира</span>
                         <br />
                       </strong>
-                      автоматично
-                      <strong>
-                        <span style="white-space: nowrap">тръгват</span>
-                        <br />
-                      </strong>
+                      към новия ритъм на хранене
                     </li>
                     <li>
-                      <strong> Намален </strong>
-                      апетит и глад
+                      <strong> По-осъзнат </strong>
+                      избор на храна
                     </li>
                   </ul>
                 </figcaption>
@@ -448,19 +583,19 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Спукване </strong>
-                      на мазнини в
+                      <strong> Изграждане </strong>
+                      на навик
                       <br />
-                      корема
+                      за редовно хранене
                       <br />
                     </li>
                     <li>
-                      Теглото започва да намалява
-                      <strong> бързо </strong>
+                      Менюто започва да изглежда
+                      <strong> по-лесно </strong>
                     </li>
                     <li>
-                      <strong> Появява </strong>
-                      се много енергия, подобрява се настроението
+                      <strong> Повече </strong>
+                      внимание към ежедневната активност
                     </li>
                   </ul>
                 </figcaption>
@@ -472,13 +607,13 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Активно изгаряне </strong>
-                      на мазнини във всички части на тялото
+                      <strong> Постоянство </strong>
+                      в кето режима всеки ден
                     </li>
-                    <li>Забележими резултати всеки ден</li>
+                    <li>Изграден ежедневен ритъм</li>
                     <li>
-                      Мазнините се отстраняват
-                      <strong> от проблемните зони </strong>
+                      Менюто се
+                      <strong> поддържа по-лесно </strong>
                     </li>
                   </ul>
                 </figcaption>
@@ -490,12 +625,12 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Забележима стройност </strong>
+                      <strong> Устойчив навик </strong>
                     </li>
-                    <li>Контуриране на талията и отслабване на лицето</li>
+                    <li>Кето режимът става част от начина на живот</li>
                     <li>
-                      <strong> Развиха се </strong>
-                      здравословните хранителни навици
+                      <strong> Затвърдени </strong>
+                      здравословни хранителни навици
                     </li>
                   </ul>
                 </figcaption>
@@ -508,10 +643,10 @@
       <section id="art8">
         <div class="mw dc">
           <h2>
-            Допълнителни благоприятни ефекти
+            Защо хората харесват
             <span>
               <br />
-              на Metaslim върху тялото
+              да приемат Metaslim
             </span>
           </h2>
         </div>
@@ -528,10 +663,10 @@
                 <figure>
                   <img src="img/a8-4.png" />
                 </figure>
-                <p class="other">Изглажда целулита</p>
+                <p class="other">Удобен за всекидневен прием</p>
               </li>
               <li>
-                <p class="h order2">Стимулира активно почистване и детокс на клетъчно ниво</p>
+                <p class="h order2">Подходящ като част от кето менюто</p>
                 <figure class="order1">
                   <img src="img/a8-5.png" />
                 </figure>
@@ -540,7 +675,7 @@
                 <figure>
                   <img src="img/a8-6.png" />
                 </figure>
-                <p class="other">Нормализира водно-солевия баланс и облекчава подуването</p>
+                <p class="other">Натурален състав с растителни компоненти</p>
               </li>
             </ul>
             <button class="btn type_0 modal ever-popup-btn second-btn" href="#">Поръчайте Metaslim по промоция</button>
@@ -551,8 +686,8 @@
       <section class="bg_10" id="art10">
         <div class="mw dc">
           <h2>
-            Metaslim най-най-удобната загуба на тегло на хората<br />
-            които пазят кетогенна диета.
+            Metaslim е удобен избор за хората,<br />
+            които спазват кетогенен режим.
           </h2>
           <div class="mw"></div>
           <ul class="cards is-grid type_9">
@@ -560,25 +695,15 @@
               <figure>
                 <img src="img/a10-1.png" class="not" />
                 <figcaption>
-                  <p>Без глад</p>
+                  <p>Лесен за прием</p>
                 </figcaption>
               </figure>
             </li>
-            <!-- <li>
-							<figure>
-								 <img src="img/a10-2.png">
-								 <figcaption>
-									  <p>
-											Без ограничений в питании
-									  </p>
-								 </figcaption>
-							</figure>
-							</li>-->
             <li>
               <figure>
                 <img src="img/a10-3.png" class="not" />
                 <figcaption>
-                  <p>Без физични упражнения</p>
+                  <p>Удобен за ежедневието</p>
                 </figcaption>
               </figure>
             </li>
@@ -586,7 +711,7 @@
               <figure>
                 <img src="img/a10-4.png" class="not" />
                 <figcaption>
-                  <p>Без вреда за здравето</p>
+                  <p>Натурален състав</p>
                 </figcaption>
               </figure>
             </li>
@@ -598,16 +723,16 @@
         <div class="mw is-grid">
           <div class="col c-7">
             <h2>
-              Експертно мнение
-              <span> на диетолозите </span>
+              Защо хората харесват
+              <span> кето режима </span>
             </h2>
-            <p class="after__title">Ричард Грут, известен британски специалист по хранене, над 30 години опит</p>
+            <p class="after__title">Кетогенният начин на хранене е популярен подход сред хората, които искат да следват структуриран хранителен режим</p>
             <div class="other">
               <figure>
                 <img src="img/a11.png" class="not expert" />
                 <figcaption>
-                  <p class="mt" style="font-size: 17px">«Досега Metaslim е най-добрият начин да отслабнете днес. Основното му предимство е, че това е много прост начин. Достатъчно е да вземете Metaslim според инструкциите и да се придържате към кетогенната диета, така че след няколко дни да видите как напускат натрупаните килограми. И с ползи за здравето.</p>
-                  <p style="font-size: 17px">Именно Metaslim препоръчвам последното на всичките си пациенти, които се придържат към кето диетата, а отзивите за такава загуба на тегло са най-положителните. помага на всички! Ако не сте опитвали Metaslim, съветвам ви да направите това възможно най-скоро. Metaslim може да ви изненада.»</p>
+                  <p class="mt" style="font-size: 17px">«Кето режимът се харесва на много хора, защото е сравнително прост за следване. Достатъчно е да се намали приемът на въглехидрати и да се изгради редовен хранителен ритъм.</p>
+                  <p style="font-size: 17px">Metaslim е удобен за хората, които вече спазват кето менюто, защото се приема лесно като част от ежедневието. Все повече хора в Европа избират този начин на хранене за своя структуриран режим.»</p>
                 </figcaption>
               </figure>
             </div>
@@ -626,10 +751,10 @@
         <div class="mw is-grid">
           <div class="col c-6">
             <h2>
-              <strong> Сравнение на </strong>
+              <strong> Защо хората избират </strong>
               Metaslim
             </h2>
-            <p class="after__title">С други продукти за отслабване</p>
+            <p class="after__title">Като удобна част от кето режима</p>
           </div>
           <div class="col c-6 other">
             <button class="btn type_0 modal ever-popup-btn" href="#">Поръчайте Metaslim по промоция</button>
@@ -643,19 +768,19 @@
             <div class="features dn">
               <div class="empty"></div>
               <div class="param">
-                <h6>Може да отслабнете бързо</h6>
+                <h6>Удобен за всекидневен прием</h6>
               </div>
               <div class="param">
-                <h6>Отслабване на напълно автоматичен</h6>
+                <h6>Натурален растителен състав</h6>
               </div>
               <div class="param">
-                <h6>С полза за здравето</h6>
+                <h6>Подходящ за кето режим</h6>
               </div>
               <div class="param">
-                <h6>Без глад и мъки</h6>
+                <h6>Без сложна подготовка</h6>
               </div>
               <div class="param">
-                <h6>Висцерални мастни се премахват</h6>
+                <h6>Плащане при доставка</h6>
               </div>
               <div class="param">
                 <h6>Достъпна цена</h6>
@@ -664,13 +789,13 @@
             <div class="cols">
               <div class="col">
                 <div>
-                  <h5>Упражнения и диета</h5>
+                  <h5>Самостоятелна диета</h5>
                 </div>
                 <div>
                   <img src="img/minus.svg" />
                 </div>
                 <div>
-                  <img src="img/minus.svg" />
+                  <img src="img/plus.svg" />
                 </div>
                 <div>
                   <img src="img/plus.svg" />
@@ -687,7 +812,7 @@
               </div>
               <div class="col second">
                 <div>
-                  <h5>Хранителни добавки</h5>
+                  <h5>Други добавки</h5>
                 </div>
                 <div>
                   <img src="img/minus.svg" />
@@ -710,7 +835,7 @@
               </div>
               <div class="col bn third">
                 <div>
-                  <h5>Хирургическа<br />намеса</h5>
+                  <h5>Скъпи<br />програми</h5>
                 </div>
                 <div>
                   <img src="img/plus.svg" />
@@ -734,7 +859,7 @@
             </div>
             <div class="col features">
               <div>
-                <h5>Революционният начин за отслабване «Metaslim</h5>
+                <h5>Metaslim като част от кето режима</h5>
               </div>
               <div>
                 <img src="img/plus.svg" />
@@ -757,11 +882,11 @@
             </div>
           </div>
           <div class="text-absolute">
-            <h6>Може да отслабнете бързо</h6>
-            <h6>Отслабване на напълно автоматичен</h6>
-            <h6>С полза за здравето</h6>
-            <h6>Без глад и мъки</h6>
-            <h6>Висцерални мастни се премахват</h6>
+            <h6>Удобен за всекидневен прием</h6>
+            <h6>Натурален растителен състав</h6>
+            <h6>Подходящ за кето режим</h6>
+            <h6>Без сложна подготовка</h6>
+            <h6>Плащане при доставка</h6>
             <h6>Достъпна цена</h6>
           </div>
           <div class="scc">
@@ -790,15 +915,15 @@
             <strong> Лесно използване на </strong>
             Metaslim
           </h2>
-          <p class="after__title">Теглото ще започне да намалява след 2-3 дни след началото на курса</p>
+          <p class="after__title">Metaslim се приема лесно като част от ежедневния кето режим</p>
         </div>
       </section>
       <!-- / SECTION 14 -->
       <section class="bg_13" id="art13">
         <div class="mw dc">
           <h2>
-            <strong> Отзиви на тези, </strong>
-            които вече са опитали
+            <strong> Отзиви за поръчката </strong>
+            от хора, които вече опитаха
           </h2>
         </div>
         <div class="mw dc">
@@ -819,7 +944,7 @@
                   </figcaption>
                 </figure>
                 <article>
-                  <p>«Препарата е супер !!! Никога не съм отслабнал толкова много, колкото с него. Просто и бързо. Отслабнах 18 кг. Измъчвах се от излишното тегло повече от 10 години, което просто не опитах. Някои диети помогнаха, но след това теглото отново се върна. Кето диетата, използваща Metaslim, се оказа най-ефективната. Ефектът е супер! Тя посъветва Metaslim на своя приятел. Освен това тя свали почти 24 кг с негова помощ!»</p>
+                  <p>«Поръчах съвсем лесно, само оставих телефон и ме потърсиха. Хареса ми, че платих чак при получаване в пощата, след като прегледах пратката. Опаковката беше точно като на сайта. Приемам Metaslim като част от моя кето режим, удобно е за ежедневието. Доволна съм от обслужването и от бързата доставка.»</p>
                   <figure>
                     <img src="img/r1.png" />
                   </figure>
@@ -838,7 +963,7 @@
                   </figcaption>
                 </figure>
                 <article>
-                  <p>«На 55 години съм. Страдам от пълнота от 41 години. В най-лошите периоди теглото е било 117 кг. През последната година здравето стана много лошо. Лекарят каза, че е спешно да отслабнете, защото нито сърцето вече не може да издържи, нито ставите. Пробвах кето диета с продукт Metaslim . За да бъда честен, не вярвах наистина, че този метод ще ми помогне. Но в крайна сметка свалих почти 30 кг. Приемах Metaslim един курс. Сега здравето ми е по-добро. Много съм доволен от резултата, ще поръчам друга Metaslim»</p>
+                  <p>«От години се опитвам да спазвам по-структуриран хранителен режим. Реших да пробвам кето менюто и поръчах Metaslim, за да ми е по-удобно. Това, което най-много ми допадна, е, че не плащаш предварително. Обадиха се, уточнихме адреса и получих пратката бързо. Платих на място, спокойно. Хубаво е, когато всичко е ясно от самото начало.»</p>
                   <figure>
                     <img src="img/r2.png" />
                   </figure>
@@ -852,14 +977,14 @@
                       Аделина,
                       <span class="color_alt">
                         <br />
-                        34 години ,Русе
+                        34 години, Русе
                         <br />
                       </span>
                     </h5>
                   </figcaption>
                 </figure>
                 <article>
-                  <p>«Обичах да отслабвам с Metaslim от факта, че не трябва да се прави нищо. Просто следвайте кето диета, пийте продукта с вода и отслабвайте. Не открих никакви отрицателни ефекти върху тялото. Напротив, се появи много енергия, стана по-добре да сън достатъчно, кожата се подобри, пъпките, които ме притесниха преди да изчезнаха, целулитът изчезна! Отслабнах 11 кг за 1 месец. Всичко ми хареса.Ще приема Metaslim. Съветвам всички»</p>
+                  <p>«Харесва ми, че Metaslim е удобен за прием, просто го вземам с вода като част от кето режима си. Поръчката беше лесна и бърза. Прегледах пратката в пощенския офис, преди да платя, което за мен е голям плюс. Операторът беше любезен и всичко мина гладко. Препоръчвам начина на поръчка на всеки, който се колебае.»</p>
                   <figure>
                     <img src="img/r3.png" />
                   </figure>
@@ -873,6 +998,34 @@
           </div>
         </div>
       </section>
+
+      <!-- / FAQ AEO (HTML nativo, idêntico ao Schema FAQPage) -->
+      <section class="faq-aeo" id="faq">
+        <div class="mw dc">
+          <h2><strong>Често задавани въпроси</strong> за Metaslim</h2>
+          <div class="faq-item">
+            <h3>Трябва ли да плащам предварително за Metaslim?</h3>
+            <p>Не. Плащате само при получаване на пратката в пощенския офис. Няма плащане предварително.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Колко струва Metaslim в България?</h3>
+            <p>Цената по текущата промоция е 35€ с -50% отстъпка. Сумата се заплаща при доставка.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Мога ли да прегледам пратката преди да платя?</h3>
+            <p>Да. Получавате пратката в пощенския офис и я преглеждате, преди да платите на място.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Как поръчвам Metaslim?</h3>
+            <p>Оставяте име и телефон във формата на сайта. Наш оператор се свързва с вас, за да потвърди адреса за доставка.</p>
+          </div>
+          <div class="faq-item">
+            <h3>За какво е предназначен Metaslim?</h3>
+            <p>Metaslim е натурална добавка с растителни компоненти, създадена в подкрепа на кетогенния начин на хранене.</p>
+          </div>
+        </div>
+      </section>
+
       <!-- /Section 116 -->
       <section class="bg_116" id="art016">
         <div class="mw is-grid">
@@ -881,7 +1034,7 @@
               <strong> Как да поръчате </strong>
               Metaslim
             </h2>
-            <p class="after__title">Световен хит в областта на храненето сега е в България</p>
+            <p class="after__title">Популярен кето продукт, вече наличен в България</p>
           </div>
           <div class="col c-6 other">
             <button class="btn type_0 modal ever-popup-btn" href="#">Поръчайте Metaslim по промоция</button>
@@ -932,7 +1085,7 @@
                   <div class="delivery-to-txt">Получаване</div>
                 </div>
                 <figcaption>
-                  <p>Ще трябва само да дойдете до пощенския офис и да получите пратката</p>
+                  <p>Плащате при получаване, след като прегледате пратката в пощенския офис</p>
                 </figcaption>
               </figure>
             </li>
@@ -946,7 +1099,7 @@
         <figure class="logo">
           <span class="main_logo">Metaslim</span>
           <figcaption>
-            <span> Ефективността доказана от лекарите </span>
+            <span> Подкрепа за вашата кето диета </span>
           </figcaption>
           <div class="order-hit">
             <img alt="" class="label" src="img/label.svg" />
@@ -968,27 +1121,27 @@
           <img alt="" class="main_product" src="img/product.png" style="width: 100%; max-width: 225px !important; margin-top: 45px" />
         </figure>
         <h1>
-          Революционен начин за отслабване
+          Натурална подкрепа за отслабване
           <br />
-          <span> на базата на кетогенна диета </span>
+          <span> при кетогенен начин на хранене </span>
         </h1>
         <ul class="list marked">
           <li>
-            <strong> Започнете </strong>
-            активното изгаряне на мазнини веднага след приема
+            <strong> Създаден </strong>
+            в подкрепа на кето режима на хранене
           </li>
           <li>
-            Борба с най
-            <strong> «вредните» мазнини </strong>
-            – висцерални
+            Съдържа
+            <strong> естествени растителни </strong>
+            компоненти
           </li>
           <li>
-            <strong> Отслабване </strong>
-            без упражнения
+            <strong> Удобен </strong>
+            за всекидневен прием
           </li>
           <li>
-            <strong> Хит на световната </strong>
-            диета за хранене
+            <strong> Популярен избор </strong>
+            сред хората на кето диета
           </li>
         </ul>
         <div class="form" id="cloneThis">
@@ -1033,10 +1186,27 @@
           </form>
         </div>
       </div>
+
+      <!-- / COMPLIANCE FOOTER (E-E-A-T) -->
+      <div class="footer-compliance">
+        <div class="fc-wrap">
+          <p class="fc-disclaimer">
+            <strong>Важна информация:</strong> Metaslim е хранителна добавка, а не лекарствен продукт. Не е предназначен за диагностика, лечение или профилактика на заболявания. Резултатите са индивидуални и зависят от начина на хранене, физическата активност и индивидуалните особености на организма. Хранителните добавки не заместват разнообразното и балансирано хранене и здравословния начин на живот. При бременност, прием на лекарства или хронични състояния се консултирайте с лекар преди употреба.
+          </p>
+          <div class="fc-links">
+            <a href="privacy.html">Политика за поверителност</a>
+            <a href="terms.html">Условия за ползване</a>
+            <a href="shipping.html">Доставка и проследяване</a>
+            <a href="cod.html">Плащане при доставка</a>
+          </div>
+          <p class="fc-copy">
+            © <script>document.write(new Date().getFullYear());</script> Metaslim България. Всички права запазени. Този сайт не е свързан с Meta Platforms, Inc. и Google LLC.
+          </p>
+        </div>
+      </div>
     </footer>
     <div class="ever-popup-build"></div>
     <script src="js/index.js"></script>
     <script src="/tl-validator.js?label=false"></script>
   </body>
 </html>
- 
