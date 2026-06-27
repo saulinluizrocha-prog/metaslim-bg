@@ -22,15 +22,15 @@
         }
     }
 
-    var promoEl = document.getElementsByClassName("al-cost-promo");
+    var promoEl = document.getElementsByClassName("al-raw-cost-promo");
 
     for(var i = 0; i < promoEl.length; i++){
-        promoEl[i].innerText = "70 EUR";
+        promoEl[i].innerText = "70";
     }
 
-    var priceEl = document.getElementsByClassName("al-cost");
+    var priceEl = document.getElementsByClassName("al-raw-cost");
 
     for(var i = 0; i < priceEl.length; i++){
-        priceEl[i].innerText = "35 EUR";
+        priceEl[i].innerText = "35";
     }
 })(); 
